@@ -1,0 +1,76 @@
+/* Color scheme
+54494B
+666A86  -   Shadow: 404254
+F1F7ED
+587D71
+4DAA57
+*/
+
+body {
+  background-color: #47665c;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  color: #f1f7ed;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 60px;
+  text-align: left;
+  padding-left: 3%;
+  text-align: center;
+}
+h2 {
+  margin: 0;
+  padding: 3%;
+  color: #f1f7ed;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.hero {
+  width: 100%;
+  height: 80px;
+  background-color: #587d71;
+  margin: 0;
+}
+.homeButton {
+  border: 0;
+  background-color: #587d71;
+  width: 100%;
+}
+.navBar {
+  width: 100%;
+  background-color: #587d71;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navButton {
+  border: 0;
+  background-color: #587d71;
+  color: #f1f7ed;
+  font-size: 20px;
+  float: left;
+}
+.navButton:active {
+  background-color: #435e55;
+}
+.news {
+  background-image: linear-gradient(-45deg, #666a86, #587d71);
+  width: 90%;
+  margin: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  box-shadow: -5px 5px 4px rgba(64, 64, 84, 0.4);
+}
+.newsImg {
+  width: 100%;
+  height: 100%;
+}
+.newsTxt {
+  width: 100%;
+  height: 150px;
+  color: #f1f7ed;
+}
