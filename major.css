@@ -10,6 +10,9 @@ body {
   background-color: #47665c;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 h1 {
   margin: 0;
   color: #f1f7ed;
@@ -35,6 +38,14 @@ h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+p {
+  font-size: 18px;
+  margin: 0px;
+  padding: 3%;
+  color: #f1f7ed;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 .hero {
   width: 100%;
   height: 80px;
@@ -45,6 +56,7 @@ h3 {
   border: 0;
   background-color: #587d71;
   width: 100%;
+  text-decoration: none;
 }
 .navBar {
   width: 100%;
@@ -52,32 +64,40 @@ h3 {
   height: 25px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navButtonSpacing {
+  margin-left: auto;
+  margin-right: auto;
 }
 .navButton {
-  border: 0;
-  background-color: #587d71;
+  background-color: transparent;
+  border: none;
   color: #f1f7ed;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
   font-size: 20px;
-  float: left;
 }
+
 .navButton:active {
   background-color: #435e55;
 }
 .news {
   background-image: linear-gradient(-45deg, #666a86, #587d71);
   width: 90%;
-  margin: 5%;
+  max-width: 450px;
+  margin: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding: 2%;
+  padding: 10px;
   box-shadow: -5px 5px 4px rgba(64, 64, 84, 0.4);
 }
 .newsImg {
   width: 100%;
   height: 100%;
-}
-.newsTxt {
-  width: 100%;
   color: #f1f7ed;
 }
